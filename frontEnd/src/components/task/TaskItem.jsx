@@ -39,6 +39,6 @@ function TaskItem({task, deleteTask}) {
         </td>
     </tr>
   )
-}
+};
 
 export default TaskItem;
