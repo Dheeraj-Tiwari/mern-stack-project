@@ -20,7 +20,7 @@ module.exports = {
   rules: {
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
     'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
-    'disable-next-line': 'true',
+    'disable-next-line': '0',
     'no-console': 0,
   },
 };
