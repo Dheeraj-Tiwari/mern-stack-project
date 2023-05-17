@@ -21,7 +21,7 @@ function Register() {
     }
   };
 
-  return (//wecall the funcation on submit
+  return (            //wecall the funcation on submit
     <div className={classes.register}>
       <h1 className={classes.title}>Register</h1> 
       <form className={classes.authForm} onSubmit={register}> 

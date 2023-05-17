@@ -6,6 +6,16 @@
 	padding: 0.5rem;
 	margin-bottom: 2rem;
 }
+.search{
+	display: block;
+    width: calc(100% - 24px); /*20px [ left & Right ] padding + 4px border [ left & Right ] */ 
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    padding: 10px;
+    border: 2px solid #4b00ff;
+}
+
 .addNew {
 	display: inline-block;
 	background-color: #187f52;

@@ -9,8 +9,9 @@ function EditProfileForm() {
   const [user, setUser] = useState({
     name: '',
     email: '',
+    password: '',
   });
-  // const { verifyAuth } = useContext(AuthContext);
+  // const { verifyAuth } = useContext(AuthContext); it to set the default settings
 
   const getUser = async () => {
     try {
@@ -45,7 +46,7 @@ function EditProfileForm() {
 
   return (
     <div>
-      <Link className={classes.backBtn} to="/">
+      <Link className={classes.backBtn} to="/"> 
         <BsArrowLeftShort />
         Home
       </Link>
@@ -71,6 +72,17 @@ function EditProfileForm() {
               placeholder="email"
               required
               value={user.email}
+              onChange={updateUserInfo}
+            />
+          </label>
+          <label htmlFor="password">
+            password:
+            <input
+              name="password"
+              type="password"
+              placeholder="password" 
+              required
+              value={user.password}
               onChange={updateUserInfo}
             />
           </label>

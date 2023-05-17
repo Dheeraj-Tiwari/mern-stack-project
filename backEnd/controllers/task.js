@@ -23,6 +23,17 @@ export const getAllTasks = async (req, res, next) =>{
     }
 };
 
+export const searchTasks = async (req, res, next) =>{
+    try{
+        const {search} = req.body;
+        const tasks = await Task.find({title: {$regex: search, $options: 'i'}});
+        return res.status(200).json(tasks);
+        }catch (err){
+            return next(err);
+            }          
+};
+
+
 export const getCurrentUserTasks = async (req, res, next) =>{
     try{
         const tasks = await Task.find({ user: req.user.id });

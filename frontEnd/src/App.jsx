@@ -3,6 +3,7 @@ import React from 'react';
 import Home from './pages/Home';
 import { Toaster } from 'react-hot-toast';
 import EditProfile from './pages/EditProfile';
+import ForgotPassword from './pages/ForgotPassword';
 import Auth from './pages/Auth';
 import PrivateRoutes from './components/PrivateRoutes';
 
@@ -22,7 +23,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/edit-profile' element={<EditProfile />} />
         </Route>
+        <Route path='/forgot-password' element={<ForgotPassword />} />
         <Route path='/auth' element={<Auth />} />
+        
 
     </Routes>
     </>
