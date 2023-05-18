@@ -33,3 +33,22 @@ function App() {
 }
 
 export default App;
+
+// Comments:
+// Import the necessary dependencies and components
+
+// Create the App component
+
+// Render the Toaster component for displaying toasts
+
+// Use the Routes component to define the routing configuration
+
+// Use the Route component to define individual routes and their corresponding components
+
+// Use the element prop to specify the component to render for a given route
+
+// Wrap the private routes (Home and EditProfile) with the PrivateRoutes component
+
+// Specify the path and element for each route
+
+// Render the ForgotPassword and Auth components for their respective routes

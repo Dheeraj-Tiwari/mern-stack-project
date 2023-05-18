@@ -16,6 +16,6 @@ const userSchema = new Schema({
         type: String,
         required: true,
     }
-}, {timestamps: true }); //two more feilds created and updeted at
+}, {timestamps: true }); // Adds createdAt and updatedAt fields
 
-export default mongoose.model("User", userSchema); //from schema it will creat a modeal that is User
+export default mongoose.model("User", userSchema); // Creates a model named 'User' from the schema

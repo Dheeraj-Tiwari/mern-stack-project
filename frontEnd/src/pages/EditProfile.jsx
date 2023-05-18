@@ -11,3 +11,12 @@ function EditProfile() {
 }
 
 export default EditProfile
+
+// Comments:
+// Import the necessary dependencies and components
+
+// Create the EditProfile component
+
+// Render the EditProfile component with a Layout component as the parent container
+
+// Render the EditProfileForm component within the Layout component

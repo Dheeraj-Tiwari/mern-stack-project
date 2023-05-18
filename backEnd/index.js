@@ -41,3 +41,28 @@ app.listen(PORT, () => {
     connectDB();
     console.log(`server is running at port ${PORT}`);
 });
+
+// Comments:
+
+// Import necessary modules and middleware
+
+// Set the port for the server
+
+// Create an Express application
+
+// Set up middleware functions
+// - Enable CORS to allow cross-origin resource sharing
+// - Use morgan for logging HTTP requests
+// - Enable parsing of JSON request bodies
+// - Enable parsing of cookies
+
+// Set up routes using the imported router from allRoutes
+
+// Error handling middleware function
+// - Handles errors by returning the error message and stack trace as a JSON response
+
+// Define a function to connect to the MongoDB database
+
+// Start the server by listening on the specified port
+// - Call the connectDB function to establish a connection to the database
+// - Log a message indicating that the server is running

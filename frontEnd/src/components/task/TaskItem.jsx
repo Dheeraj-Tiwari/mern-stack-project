@@ -42,3 +42,22 @@ function TaskItem({task, deleteTask}) {
 };
 
 export default TaskItem;
+
+// Comments:
+// Define the TaskItem component to display a single task item
+
+// Define the isCompleted state to track the completion status of the task
+
+// Define the isLoading state to track the loading state when updating the task
+
+// Define the handleCheckboxClick function to handle the checkbox click event
+// - Send a PUT request to the "/api/tasks/${task._id}" endpoint to update the task completion status
+// - Toggle the isCompleted state
+// - Display a success message
+
+// Render the task item details in a table row
+// - Display the task title with a checkbox to toggle the completion status
+// - Display the completion status of the task
+// - Display the creation date of the task
+// - Render a delete button to delete the task
+// - Bind the deleteTask function to the delete button click event

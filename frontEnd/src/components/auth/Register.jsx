@@ -6,7 +6,7 @@ import classes from './AuthForm.module.scss';
 
 function Register() {
   const register = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Prevent the default form submission behavior
     const user = {
       name: e.target.name.value,                  
       email: e.target.email.value,                    //user creation
@@ -51,3 +51,15 @@ function Register() {
 }
 
 export default Register;
+
+// Comments:
+// Define the Register component
+
+// Define an event handler for form submission
+// - Prevent the default form submission behavior
+// - Get the values of the name, email, and password input fields
+// - Send a POST request to the "/api/auth/register" endpoint with the user data
+// - Display a success message when the registration is successful
+// - Display any errors in the console and show an error message when the registration fails
+
+// Render the registration form with the name, email, and password input fields, and a register button

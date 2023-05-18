@@ -12,3 +12,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>,
 );
+
+// Comments:
+// Import the necessary dependencies and components
+
+// Use ReactDOM.render to render the App component inside the root element
+
+// Wrap the App component with BrowserRouter for routing functionality
+
+// Wrap the entire app with React.StrictMode to perform additional checks and warnings during development
+
+// Render the app inside the root element of the HTML document

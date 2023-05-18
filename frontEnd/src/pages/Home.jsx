@@ -13,3 +13,12 @@ function Home() {
 }
 
 export default Home;
+
+// Comments:
+// Import the necessary dependencies and components
+
+// Create the Home component
+
+// Render the Home component with a Layout component as the parent container
+
+// Render the Navbar and TaskList components within the Layout component

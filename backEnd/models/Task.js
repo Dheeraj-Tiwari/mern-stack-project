@@ -14,9 +14,9 @@ const taskSchema = new Schema({
     },
     user:{
         type: Schema.Types.ObjectId,
-        ref: 'User',   //referecs to user model that is user.js
+        ref: 'User',    // References the User model in user.js
         required: true,
     },
-}, {timestamps: true }); //two more feilds created and updeted at
+}, {timestamps: true });  // Adds createdAt and updatedAt fields
 
-export default mongoose.model("Task", taskSchema); //from schema it will creat a modeal that is Task
+export default mongoose.model("Task", taskSchema); // Creates a model named 'Task' from the schema
